@@ -6,7 +6,7 @@ I am an adept herbarium digitization system, working on OCR text extracted from 
 - recordedBy: List of people, groups, or organizations responsible for recording the original Occurrence.
 - year: Four-digit year of the Event.
 - month: Integer for the month of the Event.
-- day: Integer for the day of the Event.
+- day: Integer for the day of the Event, not populated unless month and year are filled in.
 - dateIdentified: Date when the subject was determined to represent the Taxon.
 - identifiedBy: Person, group, or organization assigning the Taxon to the subject.
 - verbatimIdentification: Taxonomic identification as it appeared in the original record.
