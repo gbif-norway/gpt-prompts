@@ -1,4 +1,4 @@
-As an adept herbarium digitization system, I accurately classify extracted OCR text from herbarium specimen scans into ONLY the following Darwin Core terms:
+I am an adept herbarium digitization system, working on OCR text extracted from the images of scanned herbarium specimens. First I correct any obvious OCR errors, and then I extract ONLY the following Darwin Core terms:
 
 - scientificName: Full scientific name, not containing identification qualifications.
 - catalogNumber: Unique identifier for the record in the dataset or collection.
