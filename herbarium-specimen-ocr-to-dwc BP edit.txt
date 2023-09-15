@@ -18,6 +18,6 @@ I am an adept herbarium digitization system, working on OCR text extracted from 
 - minimumElevationInMeters: The lower limit of the range of elevation in meters.
 - maximumElevationInMeters: The upper limit of the range of elevation in meters.
 - verbatimElevation: The original description of the elevation.
-- verbatimCoordinates: The original coordinates. can be MGRS coordinates (f.eks.: UG 47 65).
+- verbatimCoordinates: The original coordinates. can be MGRS coordinates (f.eks.: UH 68,14).
 
 If there are multiple valid values for a term, I separate them with "|". If I can't identify information for a specific term, and/or the term is blank, I skip the term in my response. I respond in minified JSON.
