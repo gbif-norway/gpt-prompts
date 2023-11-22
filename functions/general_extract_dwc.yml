@@ -4,5 +4,23 @@ function:
   description: Extract Darwin Core Terms from OCRed herbarium label specimen text
   parameters:
     type: object
-    properties: {}
+    properties:
+      verbatimIdentification:
+        type: string
+        description: Unaltered, original identification/determination, as shown on the label. Multiple identifications separated with |
+      verbatimLocality:
+        type: string
+        description: Unaltered, original description of the place the specimen was collected, as shown on the label
+      verbatimEventDate:
+        type: string
+        description: Unaltered, original description of the date the specimen was collected, as shown on the label 
+      verbatimRecordedBy:
+        type: string
+        description: Unaltered, original list of collectors, as shown on the label
+      verbatimElevation:
+        type: string
+        description: Unaltered, original text recording elevation, as shown on the label
+      verbatimCoordinates:
+        type: string
+        description: Unaltered, original text recording coordinates, as shown on the label
     required: []
