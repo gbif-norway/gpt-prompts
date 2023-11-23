@@ -25,19 +25,19 @@ function:
         description: Unaltered, original text recording coordinates, as shown on the label
       decimalLatitude: 
         type: string
-        description: Conversion of the verbatimCoordinates to decimal degrees latitude
+        description: Conversion of the verbatimCoordinates to decimal degrees latitude. REQUIRED IF verbatimCoordinates IS POPULATED.
       decimalLongitude: 
         type: string
-        description: Conversion of the verbatimCoordinates to decimal degrees longitude
+        description: Conversion of the verbatimCoordinates to decimal degrees longitude. REQUIRED IF verbatimCoordinates IS POPULATED.
       eventDate:
         type: string
-        description: Conversion of verbatimEventDate to ISO 8601-1       
+        description: Conversion of verbatimEventDate to ISO 8601-1. REQUIRED IF verbatimEventDate IS POPULATED.      
       minimumElevationInMeters: 
         type: integer
-        description: The lower limit of the range of elevation in meters, converted from verbatimElevation
+        description: The lower limit of the range of elevation in meters, converted from verbatimElevation. REQUIRED IF verbatimElevation IS POPULATED.
       maximumElevationInMeters: 
         type: integer
-        description: The upper limit of the range of elevation in meters, converted from verbatimElevation
+        description: The upper limit of the range of elevation in meters, converted from verbatimElevation. REQUIRED IF verbatimElevation IS POPULATED.
       country: 
         type: string
         description: Name of the country or major administrative unit, derived from the verbatimLocality
