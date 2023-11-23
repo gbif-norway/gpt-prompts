@@ -23,4 +23,22 @@ function:
       verbatimCoordinates:
         type: string
         description: Unaltered, original text recording coordinates, as shown on the label
+      decimalLatitude: 
+        type: string
+        description: Conversion of the verbatimCoordinates to decimal degrees latitude
+      decimalLongitude: 
+        type: string
+        description: Conversion of the verbatimCoordinates to decimal degrees longitude
+      eventDate:
+        type: string
+        description: Conversion of verbatimEventDate to ISO 8601-1       
+      minimumElevationInMeters: 
+        type: int
+        description: The lower limit of the range of elevation in meters, converted from verbatimElevation
+      maximumElevationInMeters: 
+        type: int
+        description: The upper limit of the range of elevation in meters, converted from verbatimElevation
+      country: 
+        type: string
+        description: Name of the country or major administrative unit, derived from the verbatimLocality
     required: []
