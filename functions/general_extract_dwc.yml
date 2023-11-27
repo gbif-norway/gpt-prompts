@@ -16,7 +16,7 @@ function:
         description: Unaltered, original description of the date the specimen was collected, as shown on the label 
       verbatimRecordedBy:
         type: string
-        description: Unaltered, original list of collectors, as shown on the label. Do not include herbarium names, 
+        description: Unaltered, original list of collectors, as shown on the label. Do not include herbarium names or "Leg." when it is present before the name of a collector
       verbatimElevation:
         type: string
         description: Unaltered, original text recording elevation, as shown on the label
