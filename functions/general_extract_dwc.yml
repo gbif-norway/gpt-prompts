@@ -16,7 +16,7 @@ function:
         description: Unaltered, original description of the date the specimen was collected, as shown on the label 
       verbatimRecordedBy:
         type: string
-        description: Unaltered, original list of collectors, as shown on the label. Do not include herbarium names or `Leg.` when it is present before the name of a collector
+        description: Unaltered, original list of collectors, as shown on the label. Do not include herbarium names or Leg. when it is present before the name of a collector
       verbatimElevation:
         type: string
         description: Unaltered, original text recording elevation, as shown on the label
@@ -40,8 +40,8 @@ function:
         description: The upper limit of the range of elevation in meters, converted from verbatimElevation. REQUIRED IF verbatimElevation IS POPULATED.
       isExHerb:
         type: boolean
-        description: `true` if this specimen appears to be an ex herb specimen. Add any additional relevant information and context in occurrenceRemarks, e.g. `Originally from a collection at UNIV. OULUENSIS`.
+        description: true if this specimen appears to be an ex herb specimen. Add any additional relevant information and context in occurrenceRemarks, e.g. Originally from a collection at UNIV. OULUENSIS.
       isExsiccata:
         type: boolean
-        description: `true` if this specimen appears to be exsiccata. Add any additional relevant information and context in occurrenceRemarks, e.g. `Exsiccatae 484 within the Plantae Suecicae exsiccatae (editor Eric Hultén)`.
+        description: true if this specimen appears to be exsiccata. Add any additional relevant information and context in occurrenceRemarks, e.g. Exsiccatae 484 within the Plantae Suecicae exsiccatae (editor Eric Hultén).
     required: []
